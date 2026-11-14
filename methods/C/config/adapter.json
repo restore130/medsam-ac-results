@@ -1,0 +1,52 @@
+{
+  "checkpoint": "weights/medsam_vit_b.pth",
+  "bottleneck_dimension": 16,
+  "adapter_locations": [
+    "after the native attention residual in every ViT block",
+    "after the native MLP residual in every ViT block"
+  ],
+  "adapter_residual_formula": "x <- x + LinearUp(ReLU(LinearDown(x)))",
+  "adapter_linear_initialization": "PyTorch nn.Linear defaults",
+  "freeze_image_encoder_backbone": true,
+  "freeze_prompt_encoder": true,
+  "freeze_mask_decoder": true,
+  "train_only_adapters": true,
+  "split_seed": 42,
+  "training_seed": 42,
+  "epochs": 20,
+  "batch_size": 1,
+  "data_augmentation": false,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.01,
+  "betas": [0.9, 0.999],
+  "eps": 1e-8,
+  "scheduler": null,
+  "loss": {
+    "bce": "BCEWithLogitsLoss",
+    "dice": "soft_dice_from_sigmoid_logits",
+    "bce_weight": 0.5,
+    "dice_weight": 0.5,
+    "smooth": 1e-6,
+    "target_resize": "nearest to decoder logit size"
+  },
+  "validation": {
+    "split": "val",
+    "full_split_each_epoch": true,
+    "best_checkpoint_metric": "mean per-sample Dice at original image size",
+    "tie_break": "earlier epoch"
+  },
+  "amp": true,
+  "amp_dtype": "bfloat16",
+  "gradient_checkpointing": true,
+  "gradient_accumulation_steps": 1,
+  "inference": {
+    "probability_resize": "bilinear to original image size",
+    "align_corners": false,
+    "threshold": 0.5,
+    "export_splits": ["val", "test"],
+    "embedding_source": "mask_decoder.output_upscaling",
+    "embedding_channels": 32,
+    "save_raw_embedding_without_normalization_or_centering": true
+  }
+}

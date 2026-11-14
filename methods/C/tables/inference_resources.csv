@@ -1,0 +1,5 @@
+﻿model_setting,split,inference_export_seconds,inference_peak_gpu_memory_mib,device
+original,val,256.08445080020465,NOT_RECORDED,cuda
+original,test,258.51826649997383,NOT_RECORDED,cuda
+adapter,val,251.02401710000004,NOT_RECORDED,cuda
+adapter,test,250.80205520000004,NOT_RECORDED,cuda

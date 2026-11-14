@@ -1,0 +1,24 @@
+{
+  "val": {
+    "sample_count": 150,
+    "dice_mean": 0.9531054798009116,
+    "embedding_norm_mean": 1.6165755613644919,
+    "elapsed_seconds": 441.97888976399554,
+    "peak_vram_bytes": 1663001600,
+    "gpu": "Tesla V100-SXM2-32GB",
+    "embedding_storage": "float16, raw, no normalization",
+    "selected_epoch": 3
+  },
+  "test": {
+    "sample_count": 150,
+    "dice_mean": 0.9615914226533991,
+    "embedding_norm_mean": 1.6511078906059264,
+    "elapsed_seconds": 436.308481991,
+    "peak_vram_bytes": 1663001600,
+    "gpu": "Tesla V100-SXM2-32GB",
+    "embedding_storage": "float16, raw, no normalization",
+    "selected_epoch": 3
+  },
+  "verification": "All 300 sample IDs, masks, probabilities and embedding dimensions checked.",
+  "export_environment": "Lab V100, PyTorch 2.6.0+cu124; training used RTX4090, PyTorch2.5.1+cu121."
+}

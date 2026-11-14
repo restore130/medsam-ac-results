@@ -1,0 +1,11 @@
+{
+  "trainable_parameters": 559232,
+  "total_parameters": 93735472,
+  "training_seconds": 46269.69530573101,
+  "peak_vram_bytes": 1678238208,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_version": "2.5.1+cu121",
+  "best_epoch": 3,
+  "best_val_dice": 0.9531281527779651,
+  "trainable_fraction": 0.005966065866719058
+}

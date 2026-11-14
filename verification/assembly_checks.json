@@ -1,0 +1,17 @@
+{
+  "split_files_byte_identical": true,
+  "sample_records": 900,
+  "cross_method_alignment_passed": true,
+  "checks": [
+    {
+      "split": "val",
+      "count": 150,
+      "ids_bbox_size_probability_mask_embedding": "passed"
+    },
+    {
+      "split": "test",
+      "count": 150,
+      "ids_bbox_size_probability_mask_embedding": "passed"
+    }
+  ]
+}

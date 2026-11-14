@@ -1,0 +1,16 @@
+{
+  "checkpoint_epoch": 8,
+  "previous_precision": {
+    "amp": true,
+    "amp_dtype": "float16"
+  },
+  "current_precision": {
+    "amp": true,
+    "amp_dtype": "bfloat16"
+  },
+  "val_dice_mean": 0.9652461290158203,
+  "val_dice_std": 0.05303712376579261,
+  "val_iou_mean": 0.9367207072679957,
+  "val_iou_std": 0.07650630559023187,
+  "val_samples": 150
+}

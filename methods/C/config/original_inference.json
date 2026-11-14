@@ -1,0 +1,12 @@
+{
+  "checkpoint": "weights/medsam_vit_b.pth",
+  "device": "cuda",
+  "amp": true,
+  "amp_dtype": "float16",
+  "splits": [
+    "val",
+    "test"
+  ],
+  "output_dir": "reproduced/original",
+  "note": "Reference parameters; export_original.py uses CLI flags, not a JSON loader"
+}

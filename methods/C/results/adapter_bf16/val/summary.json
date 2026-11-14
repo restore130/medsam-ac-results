@@ -1,0 +1,21 @@
+{
+  "model_setting": "adapter",
+  "split": "val",
+  "sample_count": 150,
+  "base_checkpoint": "C:\\Users\\ema\\Documents\\MedsamLearning\\weights\\medsam_vit_b.pth",
+  "base_checkpoint_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "adapter_checkpoint": "C:\\Users\\ema\\Documents\\MedsamLearning\\checkpoints\\adapter_bf16\\best.pt",
+  "adapter_checkpoint_sha256": "ec45a3b5c68cbb7b05958f2e6116204d5ace1ab1f5e99893a9083c6536e05f0b",
+  "trained_epoch": 11,
+  "best_val_dice": 0.9656310326054518,
+  "device": "cuda",
+  "amp": true,
+  "amp_dtype": "torch.bfloat16",
+  "threshold": 0.5,
+  "bbox_rule": "tight ground-truth box, xyxy, no perturbation",
+  "elapsed_seconds": 251.02401710000004,
+  "dice_mean": 0.9656310326054518,
+  "dice_std": 0.04390282090356622,
+  "iou_mean": 0.9364763377971358,
+  "iou_std": 0.06933913210349843
+}

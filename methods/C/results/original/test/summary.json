@@ -1,0 +1,14 @@
+{
+  "model": "original_medsam_vit_b",
+  "split": "test",
+  "sample_count": 150,
+  "checkpoint": "C:\\Users\\ema\\Documents\\MedsamLearning\\weights\\medsam_vit_b.pth",
+  "checkpoint_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "device": "cuda",
+  "amp": true,
+  "threshold": 0.5,
+  "bbox_rule": "tight ground-truth box, xyxy, no perturbation",
+  "elapsed_seconds": 258.51826649997383,
+  "dice_mean": 0.936177911331838,
+  "iou_mean": 0.8949884399407627
+}

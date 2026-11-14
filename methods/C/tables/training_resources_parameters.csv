@@ -1,0 +1,4 @@
+﻿model_setting,stage,epoch_range,total_parameters,trainable_parameters,trainable_ratio,training_seconds,epoch_seconds_sum,peak_allocated_gpu_memory_mib,amp_dtype
+original,no_downstream_training,NA,93735472,0,0,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,float16_inference
+adapter,initial_effective,1-8,94344112,608640,0.00645127700179106,EPOCH_SUM_ONLY,7554.436328600161,3286.43701171875,float16
+adapter,resumed_effective,9-20,94344112,608640,0.00645127700179106,12305.09485600004,12157.439954600064,3673.392578125,bfloat16

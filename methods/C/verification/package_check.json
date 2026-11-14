@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checksummed_files": 2693,
+  "verified_npz_files": 600,
+  "results": [
+    {
+      "setting": "original",
+      "split": "val",
+      "sample_count": 150,
+      "dice": 0.9085899625346773,
+      "iou": 0.8620975904886721
+    },
+    {
+      "setting": "original",
+      "split": "test",
+      "sample_count": 150,
+      "dice": 0.936177911331838,
+      "iou": 0.8949884399407627
+    },
+    {
+      "setting": "adapter",
+      "split": "val",
+      "sample_count": 150,
+      "dice": 0.9656310326054518,
+      "iou": 0.9364763377971358
+    },
+    {
+      "setting": "adapter",
+      "split": "test",
+      "sample_count": 150,
+      "dice": 0.9653999431280568,
+      "iou": 0.9360032130933994
+    }
+  ]
+}

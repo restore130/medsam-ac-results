@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checked_samples": 300,
+  "error_count": 0,
+  "errors": [],
+  "weight_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "first_group_test_changed_pixels": 3260,
+  "first_group_test_total_pixels": 52776031,
+  "max_abs_test_dice_delta": 0.0010032611119346058,
+  "missing_items": [
+    "Historical full-run peak GPU memory",
+    "Historical full-run terminal stdout"
+  ],
+  "not_applicable": [
+    "Training logs",
+    "Training Dice/validation training-epoch curves",
+    "Training duration",
+    "Optimizer and training checkpoints"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "completed_epoch_range_in_this_run": [
+    9,
+    20
+  ],
+  "checkpoint_details": {
+    "best": {
+      "epoch": 11,
+      "best_val_dice": 0.9656310326054518,
+      "finite": true,
+      "adapter_tensor_count": 96,
+      "trainable_parameters": 608640,
+      "optimizer_steps_since_epoch8": 2100,
+      "max_absolute_parameter": 0.38046926259994507,
+      "sha256": "ec45a3b5c68cbb7b05958f2e6116204d5ace1ab1f5e99893a9083c6536e05f0b"
+    },
+    "last": {
+      "epoch": 20,
+      "best_val_dice": 0.9656310326054518,
+      "finite": true,
+      "adapter_tensor_count": 96,
+      "trainable_parameters": 608640,
+      "optimizer_steps_since_epoch8": 8400,
+      "max_absolute_parameter": 0.43813180923461914,
+      "sha256": "b72e78925af2e012dc8ab8f9036e6000c5745f2089dbbb5a83fb05abefa9819f"
+    }
+  },
+  "numeric_event_count": 348,
+  "skipped_updates": 0,
+  "independent_validation": {
+    "val_dice_mean": 0.9656310326054518,
+    "val_dice_std": 0.04390282090356622,
+    "val_iou_mean": 0.9364763377971358,
+    "val_iou_std": 0.06933913210349843,
+    "val_samples": 150
+  },
+  "difference_from_epoch11_log": {
+    "val_dice_mean": 0.0,
+    "val_dice_std": 0.0,
+    "val_iou_mean": 0.0,
+    "val_iou_std": 0.0
+  },
+  "independent_validation_seconds": 180.06583380000006,
+  "late_validation_drop_epoch": 19,
+  "test_split_evaluated": false,
+  "training_history": "epoch1-8 FP16, restored epoch8 and completed epoch9-20 BF16"
+}

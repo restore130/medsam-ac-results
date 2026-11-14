@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "epochs": 20,
+  "batch_size": 1,
+  "amp": true,
+  "method": "linear_probe",
+  "head": "output_hypernetworks_mlps",
+  "loss": "BCEWithLogits + soft Dice, equal weights, smooth=1e-5",
+  "checkpoint_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "split_sha256": {
+    "train": "7001871db3e0addbaea505caa0f5c102dcd7153cbae4d5ed2f8e46abdc31eddd",
+    "val": "eac4fa11a495d71a4ed6759452d61158cb61a282518a03a814c2b1bb5ed55fe7",
+    "test": "f9896ec9fe78fa872c5264ec495d994c1011ca534ded03c68b298a900ec6deb4"
+  },
+  "smoke": false
+}

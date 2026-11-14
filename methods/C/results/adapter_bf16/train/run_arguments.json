@@ -1,0 +1,11 @@
+{
+  "config_path": "C:\\Users\\ema\\Documents\\MedsamLearning\\config\\adapter.json",
+  "epochs": 20,
+  "max_train_samples": null,
+  "max_val_samples": null,
+  "resume": "C:\\Users\\ema\\Documents\\MedsamLearning\\checkpoints\\adapter_full\\best.pt",
+  "start_epoch": 9,
+  "device": "cuda",
+  "amp": true,
+  "amp_dtype": "torch.bfloat16"
+}

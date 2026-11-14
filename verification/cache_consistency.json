@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "samples": [
+    {
+      "sample_id": "cju34aozyyy830993bn16u32n",
+      "max_abs_logits_difference": 0.0
+    },
+    {
+      "sample_id": "cju40m0rjkpw80871z6n6yg1u",
+      "max_abs_logits_difference": 0.0
+    },
+    {
+      "sample_id": "cju77j66ez52p08019xygi0co",
+      "max_abs_logits_difference": 0.0
+    }
+  ],
+  "scope": "FP16 V100; cached vs direct image encoder, identical best head, three val samples",
+  "torch": "2.6.0+cu124"
+}

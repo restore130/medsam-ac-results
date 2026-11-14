@@ -1,0 +1,118 @@
+{
+  "adapter_checkpoint_sha256": "ec45a3b5c68cbb7b05958f2e6116204d5ace1ab1f5e99893a9083c6536e05f0b",
+  "base_checkpoint_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "splits": {
+    "val": {
+      "status": "passed",
+      "sample_count": 150,
+      "recomputed_metrics": {
+        "dice_mean": 0.9656310326054518,
+        "dice_std": 0.04390282090356622,
+        "iou_mean": 0.9364763377971358,
+        "iou_std": 0.06933913210349843
+      },
+      "size_bytes": 653966073,
+      "probability_range": [
+        1.6347371922538473e-16,
+        1.0
+      ],
+      "embedding_range": [
+        -0.169921875,
+        1.8046875
+      ],
+      "empty_predictions": 0,
+      "samples_dice_below_0_8": 3,
+      "lowest_five_samples": [
+        {
+          "sample_id": "cju2ueb6j5ado0878vf5md13o",
+          "dice": 0.6311801993545677,
+          "iou": 0.4611127038467376
+        },
+        {
+          "sample_id": "cju8b8yair65w09878pyqtr96",
+          "dice": 0.7476339660950343,
+          "iou": 0.5969771982428004
+        },
+        {
+          "sample_id": "cju3x4blzieu30850x10uuvbm",
+          "dice": 0.7779351021806966,
+          "iou": 0.6365742961514336
+        },
+        {
+          "sample_id": "cju7ehljc2or70871261br8ai",
+          "dice": 0.8487871483705571,
+          "iou": 0.7372981870113524
+        },
+        {
+          "sample_id": "cju32gzs6xo8x0993r8tedbpb",
+          "dice": 0.8537646429786614,
+          "iou": 0.7448423552360961
+        }
+      ],
+      "original_metrics_reference": {
+        "dice_mean": 0.9085899625346773,
+        "iou_mean": 0.8620975904886721,
+        "amp": true,
+        "amp_dtype": null
+      },
+      "original_comparison_note": "Original and Adapter use different AMP precision; record this in experimental reporting."
+    },
+    "test": {
+      "status": "passed",
+      "sample_count": 150,
+      "recomputed_metrics": {
+        "dice_mean": 0.9653999431280568,
+        "dice_std": 0.044353526105768946,
+        "iou_mean": 0.9360032130933994,
+        "iou_std": 0.06773764243874139
+      },
+      "size_bytes": 638088424,
+      "probability_range": [
+        1.1549958627280388e-16,
+        1.0
+      ],
+      "embedding_range": [
+        -0.169921875,
+        1.734375
+      ],
+      "empty_predictions": 0,
+      "samples_dice_below_0_8": 2,
+      "lowest_five_samples": [
+        {
+          "sample_id": "cju1f5x1164xv08555654c24r",
+          "dice": 0.6137469772567266,
+          "iou": 0.44273806237924374
+        },
+        {
+          "sample_id": "cju8doa16u5gh0818w1ywda3q",
+          "dice": 0.6705963938973648,
+          "iou": 0.504434011476265
+        },
+        {
+          "sample_id": "cju310f6val1v0855xo8tc3gu",
+          "dice": 0.8409652106698908,
+          "iou": 0.7255737432661068
+        },
+        {
+          "sample_id": "cjyzufihqquiw0a46jatrbwln",
+          "dice": 0.8627851432526805,
+          "iou": 0.758682616687257
+        },
+        {
+          "sample_id": "cju84dsvaklpx098750hp83x4",
+          "dice": 0.8753762377520307,
+          "iou": 0.7783725252277021
+        }
+      ],
+      "original_metrics_reference": {
+        "dice_mean": 0.936177911331838,
+        "iou_mean": 0.8949884399407627,
+        "amp": true,
+        "amp_dtype": null
+      },
+      "original_comparison_note": "Original and Adapter use different AMP precision; record this in experimental reporting."
+    }
+  },
+  "status": "passed",
+  "split_overlap": false
+}

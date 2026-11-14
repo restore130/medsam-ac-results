@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "methods": [
+    "linear_probe",
+    "original",
+    "adapter"
+  ],
+  "iou_recomputed_from_saved_masks": true
+}

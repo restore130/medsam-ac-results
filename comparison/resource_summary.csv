@@ -1,0 +1,4 @@
+﻿model_setting,trainable_parameters,trainable_ratio,training_seconds,training_time_scope,peak_train_allocated_mib,hardware
+original,0,0,不适用,不训练,不适用,见C环境记录
+linear_probe,559232,0.005966065866719058,46269.69530573101,20个已完成有效epoch耗时，不含中断未完成轮次及安装,1600.49267578125,NVIDIA GeForce RTX 4090
+adapter,608640,0.00645127700179106,19711.876283200225,20个有效epoch之和；失败尝试及恢复重评额外耗时不计入，详见C历史记录,3673.392578125,RTX5060 Laptop，见C运行记录
