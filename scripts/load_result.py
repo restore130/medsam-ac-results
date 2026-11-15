@@ -15,6 +15,6 @@ def load_result(model_setting, split, sample_id):
     return result
 if __name__=='__main__':
     import argparse
-    p=argparse.ArgumentParser();p.add_argument('model_setting',choices=['original','linear_probe','adapter']);p.add_argument('split',choices=['val','test']);p.add_argument('sample_id');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('model_setting',choices=['original','linear_probe','adapter','lora_r8','lora_r16']);p.add_argument('split',choices=['val','test']);p.add_argument('sample_id');a=p.parse_args()
     r=load_result(a.model_setting,a.split,a.sample_id)
     print({k:(v.shape,str(v.dtype)) for k,v in r.items() if isinstance(v,np.ndarray)})
