@@ -1,0 +1,5 @@
+model_setting,split,samples,npz_checked,png_checked,dice_iou_recomputed,bbox_checked
+lora_r8,val,150,150,150,150,150
+lora_r8,test,150,150,150,150,150
+lora_r16,val,150,150,150,150,150
+lora_r16,test,150,150,150,150,150

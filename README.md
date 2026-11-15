@@ -1,5 +1,10 @@
 # MedSAM Linear Probe 与 Adapter 实验交付
 
+## 人员 B 的 LoRA 交付
+
+LoRA-r8 和 LoRA-r16 的代码、配置和训练记录位于 [methods/B](methods/B/)。下载 [B 完整结果](https://github.com/restore130/medsam-ac-results/releases/tag/b-lora-v1.0.0)，操作步骤见 [README-B.md](README-B.md)。B 的 600 条索引已加入统一索引。使用统一读取器时，请将 A+C 和 B 两套交付解压到同一目录，再把本仓库合并后的 indices/all_samples.csv 与 scripts/load_result.py 复制到解压根目录的对应位置。
+
+
 本仓库提供代码、配置、训练曲线和汇总表。完整数据、基础权重、微调权重、900份预测及特征位于 [Release 下载页](https://github.com/restore130/medsam-ac-results/releases/tag/v1.0.0)。
 
 ## 下载完整交付包

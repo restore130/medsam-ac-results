@@ -1,0 +1,77 @@
+{
+  "trainable_parameters": 294912,
+  "best_epoch": 3,
+  "best_checkpoint_val_dice": 0.9634164384976608,
+  "splits": {
+    "val": {
+      "samples": 150,
+      "elapsed_seconds": 670.4020788999987,
+      "epoch": 3,
+      "mean_dice": 0.9634613193497281,
+      "mean_iou": 0.9336578824702838,
+      "hd95_valid_samples": 150,
+      "mean_hd95_px": 22.165717838100083,
+      "embedding_norm_statistics_mean_across_samples": {
+        "embedding_norm_mean": 1.565190114180247,
+        "embedding_norm_std": 0.39674067934354146,
+        "embedding_norm_p5": 0.9350899714231491,
+        "embedding_norm_p50": 1.561350411772728,
+        "embedding_norm_p95": 2.2521032826105754
+      }
+    },
+    "test": {
+      "samples": 150,
+      "elapsed_seconds": 667.7614912999998,
+      "epoch": 3,
+      "mean_dice": 0.9650303696685277,
+      "mean_iou": 0.9347737349393884,
+      "hd95_valid_samples": 150,
+      "mean_hd95_px": 20.51128152348077,
+      "embedding_norm_statistics_mean_across_samples": {
+        "embedding_norm_mean": 1.60821444829305,
+        "embedding_norm_std": 0.3764763847986857,
+        "embedding_norm_p5": 0.990545934488376,
+        "embedding_norm_p50": 1.616194493373235,
+        "embedding_norm_p95": 2.2475033781925835
+      }
+    }
+  },
+  "training_stages": [
+    {
+      "first_epoch": 1,
+      "last_epoch": 2,
+      "gpu": "RTX 3060 Laptop GPU",
+      "gradient_checkpointing": true,
+      "train_seconds": 4425.3800693000085,
+      "val_seconds": 828.6143919999886,
+      "peak_allocated_bytes": 3428125696
+    },
+    {
+      "first_epoch": 3,
+      "last_epoch": 3,
+      "gpu": "RTX 3090",
+      "gradient_checkpointing": true,
+      "train_seconds": 1913.0232978999993,
+      "val_seconds": 381.4857372000006,
+      "peak_allocated_bytes": 3428101120
+    },
+    {
+      "first_epoch": 4,
+      "last_epoch": 13,
+      "gpu": "RTX 3090",
+      "gradient_checkpointing": true,
+      "train_seconds": 19404.5311735,
+      "val_seconds": 3865.735114000003,
+      "peak_allocated_bytes": 3428101120
+    },
+    {
+      "first_epoch": 14,
+      "last_epoch": 20,
+      "gpu": "RTX 3090",
+      "gradient_checkpointing": false,
+      "train_seconds": 13185.362393800002,
+      "val_seconds": 2670.390391700006,
+      "peak_allocated_bytes": 8656929792
+    }
+  ]
+}

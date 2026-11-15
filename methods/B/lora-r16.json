@@ -1,0 +1,12 @@
+{
+  "rank": 16,
+  "alpha": 16,
+  "dropout": 0,
+  "epochs": 20,
+  "batch": 1,
+  "seed": 42,
+  "lr": 0.0005,
+  "weight_decay": 0.01,
+  "amp": true,
+  "checkpoint_blocks": true
+}
