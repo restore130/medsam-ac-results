@@ -1,0 +1,7 @@
+model_setting,scope,trainable_parameters,first_epoch,last_epoch,gpu,gradient_checkpointing,train_seconds,val_seconds,peak_allocated_bytes
+lora_r8,Training epochs and validation; CUDA peak allocated during training,294912,1,2,RTX 3060 Laptop GPU,True,4425.3800693000085,828.6143919999886,3428125696
+lora_r8,Training epochs and validation; CUDA peak allocated during training,294912,3,3,RTX 3090,True,1913.0232978999993,381.4857372000006,3428101120
+lora_r8,Training epochs and validation; CUDA peak allocated during training,294912,4,13,RTX 3090,True,19404.5311735,3865.735114000003,3428101120
+lora_r8,Training epochs and validation; CUDA peak allocated during training,294912,14,20,RTX 3090,False,13185.362393800002,2670.390391700006,8656929792
+lora_r16,Training epochs and validation; CUDA peak allocated during training,589824,1,12,RTX 3060 Laptop GPU,True,31386.395609399995,6144.454285100008,3431869440
+lora_r16,Training epochs and validation; CUDA peak allocated during training,589824,13,20,RTX 3090,False,15036.995545699989,3081.475577600002,8662811648

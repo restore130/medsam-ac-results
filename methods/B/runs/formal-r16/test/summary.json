@@ -1,0 +1,9 @@
+{
+  "samples": 150,
+  "elapsed_seconds": 695.4973510999989,
+  "epoch": 2,
+  "mean_dice": 0.9616131180352103,
+  "mean_iou": 0.9299281841197126,
+  "hd95_valid_samples": 150,
+  "mean_hd95_px": 21.82096752324854
+}

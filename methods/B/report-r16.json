@@ -1,0 +1,59 @@
+{
+  "trainable_parameters": 589824,
+  "best_epoch": 2,
+  "best_checkpoint_val_dice": 0.9660070659696567,
+  "splits": {
+    "val": {
+      "samples": 150,
+      "elapsed_seconds": 699.1926177000059,
+      "epoch": 2,
+      "mean_dice": 0.9660133180780436,
+      "mean_iou": 0.9365742424134245,
+      "hd95_valid_samples": 150,
+      "mean_hd95_px": 21.54947657486614,
+      "embedding_norm_statistics_mean_across_samples": {
+        "embedding_norm_mean": 1.5608859833081563,
+        "embedding_norm_std": 0.40668088575204214,
+        "embedding_norm_p5": 0.9099615335464477,
+        "embedding_norm_p50": 1.5570664982000986,
+        "embedding_norm_p95": 2.2703372065226235
+      }
+    },
+    "test": {
+      "samples": 150,
+      "elapsed_seconds": 695.4973510999989,
+      "epoch": 2,
+      "mean_dice": 0.9616131180352103,
+      "mean_iou": 0.9299281841197126,
+      "hd95_valid_samples": 150,
+      "mean_hd95_px": 21.82096752324854,
+      "embedding_norm_statistics_mean_across_samples": {
+        "embedding_norm_mean": 1.6066475637753805,
+        "embedding_norm_std": 0.38779539793729784,
+        "embedding_norm_p5": 0.9651896100242933,
+        "embedding_norm_p50": 1.6142119558652241,
+        "embedding_norm_p95": 2.272277992963791
+      }
+    }
+  },
+  "training_stages": [
+    {
+      "first_epoch": 1,
+      "last_epoch": 12,
+      "gpu": "RTX 3060 Laptop GPU",
+      "gradient_checkpointing": true,
+      "train_seconds": 31386.395609399995,
+      "val_seconds": 6144.454285100008,
+      "peak_allocated_bytes": 3431869440
+    },
+    {
+      "first_epoch": 13,
+      "last_epoch": 20,
+      "gpu": "RTX 3090",
+      "gradient_checkpointing": false,
+      "train_seconds": 15036.995545699989,
+      "val_seconds": 3081.475577600002,
+      "peak_allocated_bytes": 8662811648
+    }
+  ]
+}

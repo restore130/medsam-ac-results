@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "counts": {
+    "train": 700,
+    "val": 150,
+    "test": 150
+  },
+  "manifest_sha256": "d2956c229f3bc1c06f30635cbfd22ca2378dba94c27aed1ecec445aeb0cfa5a8"
+}

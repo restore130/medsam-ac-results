@@ -1,0 +1,215 @@
+{
+  "config": {
+    "rank": 16,
+    "alpha": 16,
+    "dropout": 0,
+    "epochs": 20,
+    "batch": 1,
+    "seed": 42,
+    "lr": 0.0005,
+    "weight_decay": 0.01,
+    "amp": true,
+    "checkpoint_blocks": true
+  },
+  "torch": "2.5.1+cu124",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "pretrained_md5": "3bb6db55bd0c9ca30b61248bca72f8d6",
+  "trainable_count": 589824,
+  "cuda_version": "12.4",
+  "hypothesis": "r16 increases Dice and representation drift, and worsens SegECE relative to r8",
+  "trainable_parameters": {
+    "image_encoder.blocks.0.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.0.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.0.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.0.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.1.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.1.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.1.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.1.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.2.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.2.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.2.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.2.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.3.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.3.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.3.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.3.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.4.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.4.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.4.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.4.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.5.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.5.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.5.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.5.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.6.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.6.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.6.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.6.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.7.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.7.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.7.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.7.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.8.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.8.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.8.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.8.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.9.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.9.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.9.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.9.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.10.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.10.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.10.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.10.attn.qkv.up_v.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.11.attn.qkv.down_q.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.11.attn.qkv.up_q.weight": [
+      768,
+      16
+    ],
+    "image_encoder.blocks.11.attn.qkv.down_v.weight": [
+      16,
+      768
+    ],
+    "image_encoder.blocks.11.attn.qkv.up_v.weight": [
+      768,
+      16
+    ]
+  }
+}
